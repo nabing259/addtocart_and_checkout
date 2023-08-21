@@ -1,0 +1,30 @@
+body{
+    margin: 5px 17% 5px 17%;
+}
+
+img{
+    width: 120px;
+}
+thead>tr{
+    background-color: rgb(196, 195, 195);
+    text-align: center;
+    padding: 10px;
+}
+th{
+    width: 100px;
+}
+td{
+    text-align: center;
+    width: 130px;
+}
+tbody tr{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+input{
+    width: 15px;
+    padding-left: 3px;
+}
+#home{
+    float: right;
+}
