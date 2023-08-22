@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <td>  
         <img src="${ele.item.image}" alt="${ele.item.name}">
       </td>
-      <td><h4>${ele.item.name}</h4></td>
+      <td class="itemname"><h4>${ele.item.name}</h4></td>
       <td>Rs. ${ele.item.price}</td>
       <td>
         <button class="decrement" data-item="${index}">-</button><input value="${ele.quantity}"type="text" class="quantity"><button class="increment" data-item="${index}">+</button>

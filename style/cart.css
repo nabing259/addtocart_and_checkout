@@ -5,6 +5,9 @@ body{
 img{
     width: 120px;
 }
+table{
+    width: 100%;
+}
 thead>tr{
     background-color: rgb(196, 195, 195);
     text-align: center;
@@ -27,4 +30,25 @@ input{
 }
 #home{
     float: right;
+}
+
+@media (min-width: 320PX) and (max-width: 480PX) {
+    body{
+        margin: 5px;
+    }
+    img{
+        width: 80px;
+    }
+    thead>tr{
+        padding: 5px;
+    }
+    th{
+        width: 80px;
+    }
+    td{
+        width: 50px;
+    }
+    .itemname{
+        display: none;
+    }
 }

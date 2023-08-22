@@ -16,7 +16,7 @@
     justify-content: flex-end;
   }
 
-  #navbar a {
+  #menu a {
     margin: 0 15px;
     color: aliceblue;
     text-decoration: none;
@@ -43,7 +43,6 @@
   }
   #items>div{
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    position: relative;
     /* transition: transform 0.3s ease-in-out; */
     border-radius: 6px;
   }
@@ -117,3 +116,43 @@
     border: 0.5px solid chartreuse;
     border-radius: 0;
   }
+
+  @media (min-width: 320PX) and (max-width: 480PX) {
+    body{
+      width: 100%;
+    }
+    #navbar {
+      width: 100%;
+      padding: 10px;
+    }
+    #items {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin: 10px 5px;
+    }
+    #item_count {
+      margin-right: 15px
+    }
+    img{
+      width:95%;
+      height: 200px;
+    }
+    button{
+      width: 75px;
+      padding: 3px;
+      margin-bottom: 13px;
+      margin-right:5px;
+      margin-left: 10px;
+    }
+    #qtyInp{
+      width: 30px;
+    }
+    .info{
+      padding-top:5px;
+    }
+  #menu a {
+    margin: 0 10px;
+  }
+}
