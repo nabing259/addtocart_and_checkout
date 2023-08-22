@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
   }
-  #logo{
+  #logo a{
     cursor: pointer;
+    text-decoration: none;
+    color: white;
   }
   #navbar {
     display: flex;
